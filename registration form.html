@@ -6,22 +6,22 @@
 
 <form action="/action_page.php">
   <label for="name">Name</label><br>
-  <input type="text" id="name" name="name"><br>
+  <input type="text" id="name" name="name"  required><br>
   
   <label for="email">Email</label><br>
-  <input type="email" id="mail" name="email"><br>
+  <input type="email" id="mail" name="email"  required><br>
   
   <label for="pass">Password</label><br>
-  <input type="text" id="pass" name="pass"><br><br>
+  <input type="text" id="pass" name="pass"  required><br><br>
   
-   <input type="radio" id="male" name="gender" value="male">
+   <input type="radio" id="male" name="gender" value="male"  required>
   <label for="male">Male</label><br>
-  <input type="radio" id="female" name="gender" value="female">
+  <input type="radio" id="female" name="gender" value="female"  required>
   <label for="female">Female</label><br>
-  <input type="radio" id="other" name="gender" value="other">
+  <input type="radio" id="other" name="gender" value="other"  required>
   <label for="other">Prefer Not to Say</label><br><br>
   
-  <select id="country" name="country">
+  <select id="country" name="country"  required>
    <option value="Pakistan">Pakistan</option>
    <option value="Sri Lanka">Sri Lanka</option>
    <option value="Bangladesh">Bangladesh</option>
@@ -30,7 +30,7 @@
    </select><br><br>
    
    <label for="birthday">Birthday:</label>
-  <input type="date" id="birthday" name="birthday"><br><br>
+  <input type="date" id="birthday" name="birthday"  required><br><br>
   <input type="checkbox" id="rememberinfo" name="rememberinfo" value="Remember my Information">
   <label for="rememberinfo"> Remember my Information </label><br><br>
   <input type="submit" value="Submit">
